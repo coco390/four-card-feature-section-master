@@ -45,7 +45,8 @@ p {
 /*Section Styling*/
 .section-container {
     display: flex;
-    width: 100%;
+    width: 1110px;
+    height: 530px;
     padding: 20px;
     align-items: center;
     justify-content: center;
