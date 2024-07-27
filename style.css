@@ -93,6 +93,11 @@ p {
     text-align: left;
   }
 
+  .card-content h3{
+    padding: 0px;
+    margin-bottom: 8px;
+  }
+
   .card-image {
     display: flex;
     justify-content: flex-end;
@@ -119,4 +124,9 @@ p {
 
 .card-calculator {
     border-top: 4px solid #549EF2;
+}
+
+/*Media Queries*/
+@media (max-width: 768px) {
+
 }
