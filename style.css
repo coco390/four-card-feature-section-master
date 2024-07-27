@@ -21,25 +21,41 @@ body {
 h1 {
     color: #4D4F62;
     font-weight: 200;
-    font-size: 2rem;
+    font-size: 36px;
 }
 
 h2 {
     color: #4D4F62;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 36px;
+    margin-bottom: 16px;
 }
 
 h3 {
     color: #4D4F62;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 24px;
+    padding: 16px;
 }
 
 p {
     color: #A6A8B1;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 13px;
+    line-height: 1.75;
+    padding: 0px 16px 0px 1px;
+}
+
+/*Header Container*/
+.header-container {
+    width: 540px;
+    height: auto;
+    margin-bottom: 64px;
+}
+
+.header-container p {
+    font-size: 15px;
+    padding: 0;
 }
 
 /*Section Styling*/
@@ -61,9 +77,46 @@ p {
     background-color: white;
     width: 350px;
     height: 250px;
-    border-radius: 1rem;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card:nth-child(2) {
     margin-top: 20px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .card-image {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 28px;
+  }
+
+.card img {
+    width: 65px;
+    height: auto;
+}
+
+/*Top Border Color*/
+.card-supervisor {
+    border-top: 4px solid #44D3D2;
+}
+
+.card-teambuilder {
+    border-top: 4px solid #EA5454;
+}
+
+.card-karma {
+    border-top: 4px solid #FCAE4A;
+}
+
+.card-calculator {
+    border-top: 4px solid #549EF2;
 }
